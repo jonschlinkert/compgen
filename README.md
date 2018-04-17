@@ -19,26 +19,24 @@ Add `compgen` to your node.js application with the following line of JavaScript:
 ```js
 const compgen = require('compgen');
 
-compgen({ stdio: 'inherit' }).catch(console.error);
-```
-
-Generates a list of all available bash aliases, commands, and keywords, like:
-
-```js
-// ...
-// giffiltr
-// gifinto
-// share
-// gem
-// git-receive-pack
-// gitk
-// git-upload-archive
-// git-credential-osxkeychain
-// git-cvsserver
-// git-shell
-// git-upload-pack
-// git
-// ...
+compgen()
+  .then(res => {
+    console.log(res);
+    // ...
+    // giffiltr
+    // gifinto
+    // share
+    // gem
+    // git-receive-pack
+    // gitk
+    // git-upload-archive
+    // git-credential-osxkeychain
+    // git-cvsserver
+    // git-shell
+    // git-upload-pack
+    // git
+    // ... 1539 more items
+  });
 ```
 
 ## Examples

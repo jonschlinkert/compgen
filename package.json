@@ -2,11 +2,11 @@
   "name": "compgen",
   "description": "Node.js API for the bash(1) 'compgen' built-in, which lists all available bash commands, aliases, keywords, functions...",
   "version": "1.0.0",
-  "homepage": "https://github.com/jonschlinkert/list-commands",
+  "homepage": "https://github.com/jonschlinkert/compgen",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/compgen",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/list-commands/issues"
+    "url": "https://github.com/jonschlinkert/compgen/issues"
   },
   "license": "MIT",
   "files": [
